@@ -8,6 +8,7 @@ library(tidyverse)
 ```
 
 ```{r}
+starbucks_drinkMenu_expanded<-read_csv("data/starbucks_drinkMenu_expanded.csv")
 dim(starbucks_drinkMenu_expanded)
 names(starbucks_drinkMenu_expanded)
 ```
